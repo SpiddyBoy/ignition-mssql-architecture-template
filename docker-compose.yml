@@ -14,7 +14,7 @@ services:
       -r /restore.gwbk
   
   database:
-    image: bwdesigngroup/mssql-docker
+    image: bwdesigngroup/mssql-docker:latest
     hostname: mssql
     ports:
       - 1433
